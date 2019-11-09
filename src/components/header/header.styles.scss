@@ -1,9 +1,16 @@
 .header {
   height: 70px;
-  width: 100%;
+  width: 80%;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 50px;
+  margin-bottom: 200px;
+
+  .logo-container {
+    height: 100%;
+    width: 70px;
+    padding: 25px;
+    margin: 0 70px;
+  }
 
   .options {
     width: 50%;
@@ -11,6 +18,7 @@
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    margin-top: 50px;
 
     .option {
       padding: 10px 15px;
