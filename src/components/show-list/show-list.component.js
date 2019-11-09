@@ -1,6 +1,6 @@
 import React from 'react';
 import axios from 'axios';
-import './tv-list.styles.scss';
+import './show-list.styles.scss';
 
 import ShowCard from '../show-card/show-card.component';
 

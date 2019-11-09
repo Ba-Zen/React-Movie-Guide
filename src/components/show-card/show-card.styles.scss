@@ -1,0 +1,44 @@
+.title {
+  color: black;
+  display: none;
+}
+
+.year {
+  color: black;
+  display: none;
+}
+.container {
+  position: relative;
+  display: inline-block; /* Make the width of box same as image */
+
+  &:hover {
+    .image {
+      opacity: 0.3;
+    }
+
+    .title {
+      opacity: 0.85;
+      display: flex;
+      position: absolute;
+      z-index: 999;
+      margin: 0 auto;
+      left: 0;
+      right: 0;
+      top: 10%; /* Adjust this value to move the positioned div up and down */
+      text-align: center;
+      width: 60%; /* Set the width of the positioned div */
+    }
+    .year {
+      opacity: 0.85;
+      display: flex;
+      position: absolute;
+      z-index: 999;
+      margin: 0 auto;
+      left: 40%;
+      right: 0;
+      top: 40%; /* Adjust this value to move the positioned div up and down */
+      text-align: center;
+      width: 60%; /* Set the width of the positioned div */
+    }
+  }
+}

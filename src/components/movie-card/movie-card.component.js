@@ -1,7 +1,7 @@
 import React from 'react';
 import './movie-card.styles.scss';
 
-const Card = props => {
+const MovieCard = props => {
   //console.log(props.movie.poster_path);
   return (
     <div className='container'>
@@ -16,4 +16,4 @@ const Card = props => {
   );
 };
 
-export default Card;
+export default MovieCard;
