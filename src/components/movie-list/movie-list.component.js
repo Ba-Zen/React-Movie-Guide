@@ -1,10 +1,10 @@
 import React from 'react';
 import axios from 'axios';
-import './movie-card.styles.scss';
+import './movie-list.styles.scss';
 
-import Card from '../card/movie-card.component';
+import MovieCard from '../movie-card/movie-card.component';
 
-class MovieCard extends React.Component {
+class MovieList extends React.Component {
   state = {
     movies: []
   };
@@ -23,14 +23,14 @@ class MovieCard extends React.Component {
     return (
       <div className='list'>
         {movies.map((movie, idx) => (
-          <Card key={idx} className='movie-card' movie={movie} />
+          <MovieCard key={idx} className='movie-card' movie={movie} />
         ))}
       </div>
     );
   }
 }
 
-export default MovieCard;
+export default MovieList;
 
 /*  
  <div

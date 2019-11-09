@@ -1,11 +1,13 @@
 import React from 'react';
 import './App.css';
 
-import MovieCard from './components/movie-card/movie-card.component';
+import Header from './components/header/header.component';
+import MovieList from './components/movie-list/movie-list.component';
 
 const App = () => (
   <div>
-    <MovieCard />
+    <Header />
+    <MovieList />
   </div>
 );
 
