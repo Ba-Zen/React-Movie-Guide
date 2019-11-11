@@ -1,0 +1,26 @@
+.list {
+  width: 85vw;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.sub-header {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+.options {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.option {
+  text-decoration: none;
+}

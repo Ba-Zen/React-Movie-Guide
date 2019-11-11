@@ -3,15 +3,15 @@ import './App.css';
 import { Switch, Route, Redirect } from 'react-router-dom';
 
 import Header from './components/header/header.component';
-import MovieList from './components/movie-list/movie-list.component';
-import ShowList from './components/show-list/show-list.component';
+import MoviePage from './pages/movie-page/movie-page.component';
+import ShowPage from './pages/show-page/show-page.component';
 
 const App = () => (
   <div>
     <Header />
     <Switch>
-      <Route exact path='/movies' component={MovieList} />
-      <Route path='/shows' component={ShowList} />
+      <Route exact path='/movies' component={MoviePage} />
+      <Route path='/shows' component={ShowPage} />
     </Switch>
   </div>
 );
